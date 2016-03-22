@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:linqh="http://schemas.android.com/apk/res-linqh.schedule"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="linqh.schedule.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffff3300"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="2016年1月"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff3300"
+        android:paddingBottom="10dp">
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="日" />
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="一" />
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="二" />
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="三" />
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="四" />
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="五" />
+
+        <TextView
+            style="@style/weekTextStyle"
+            android:layout_weight="1"
+            android:text="六" />
+    </LinearLayout>
+
+    <linqh.schedule.ui.Schedule
+        android:layout_margin="3dp"
+        android:id="@+id/schedule"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></linqh.schedule.ui.Schedule>
+</LinearLayout>

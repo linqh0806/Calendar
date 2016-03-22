@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="year" format="integer" />
+    <attr name="month" format="integer"/>
+    <attr name="totalDate" format="integer"/>
+    <attr name="timeText" format="string"/>
+    <attr name="descTextSize" format="dimension"/>
+    <attr name="numberSize" format="dimension"/>
+    <attr name="timeTextSize" format="dimension"/>
+    <attr name="titlePaddingRight" format="dimension"/>
+    <attr name="titlePaddingTop" format="dimension"/>
+    <attr name="titlePaddingLeft" format="dimension"/>
+    <attr name="titlePaddingBottom" format="dimension"/>
+    <declare-styleable name="Schedule">
+        <attr name="year"/>
+        <attr name="month"/>
+        <attr name="totalDate"/>
+        <attr name="timeText"/>
+        <attr name="descTextSize"/>
+        <attr name="numberSize"/>
+        <attr name="timeTextSize"/>
+        <attr name="titlePaddingRight"/>
+        <attr name="titlePaddingTop"/>
+        <attr name="titlePaddingLeft"/>
+        <attr name="titlePaddingBottom"/>
+    </declare-styleable>
+</resources>
